@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="..//CSS GERAL/headFooterR&MStyle.css">
+    <link rel="stylesheet" href="mainStyle.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: rgb(32, 35, 41);
+        }
+
+        #header {
+            background-color: rgb(255, 255, 255);
+        }
+
+        a::selection,
+        p::selection,
+        h1::selection,
+        li::selection {
+            background-color: rgb(32, 35, 41);
+            color: #ffa601;
+        }
+    </style>
+</head>
+<body>
+    
+    <header id="header">
+        <nav id="navbar">
+            <div class="divsHeader">
+                 <figure>
+                    <a href="index .html">
+                        <img src="..//IMAGES/iconR&M.png" width="100px" alt="">
+                    </a>
+                </figure>
+            </div>
+
+            <div class="divsHeader">
+                <ul id="ulHeader">
+                    <li class="liHeader">
+                        <a href="" class="ancorNav">
+                            docs
+                        </a>
+                    </li>
+                    <li class="liHeader">
+                        <a href="" class="ancorNav">
+                            about
+                        </a>
+                    </li>
+                    <li class="liHeader">
+                        <div id="lastLiHeader">
+                            <p>support us</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="titleOfHeader">
+            <h1>The Rick and Morty API</h1>
+        </div>
+    </header>
+
+    <main id="main">
+        <section id="container">
+            <!-- ARTICLE1 CONCLUÍDO -->
+            <article class="articleContainer">
+                <div class="imageChars">
+                    <figure>
+                        <img id="img1" src="" alt="">
+                    </figure>
+                </div>
+
+                <div class="generalInfos chars1">
+                    <div class="item1">
+                        <div class="name">
+                            <a class="ancorChars" id="ancorName1" target="_blank" href="../CHAR/char.html">
+                                <h2></h2>
+                            </a>
+                        </div>
+                        <div class="condition">
+                            <span id="icon1" class="iconCondition icon"></span>
+                            <p id="p1"></p>
+                        </div>
+                    </div>
+
+                    <div class="item2"> 
+                        <div class="lastLocation">   
+                            <p>Last known location:</p>
+                        </div>
+                        <div class="local">
+                            <a class="ancorChars" id="ancorLocal1" target="_blank" href="">
+                                <p></p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item3">
+                        <div class="firstSeenIn">
+                            <p>First seen in:</p>
+                        </div>
+                        <div class="episode">
+                            <a class="ancorChars" id="ancorEpisode1" target="_blank" href="">
+                                <p></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ARTICLE2 CONCLUÍDO -->
+            <article class="articleContainer">
+                <div class="imageChars">
+                    <figure>
+                        <img id="img2" src="" alt="">
+                    </figure>
+                </div>
+
+                <div class="generalInfos chars2">
+                    <div class="item1">
+                        <div class="name">
+                            <a class="ancorChars" id="ancorName2" target="_blank" href="../CHAR/char.html">
+                                <h2></h2>
+                            </a>
+                        </div>
+                        <div class="condition">
+                            <span id="icon2" class="iconCondition icon"></span>
+                            <p id="p2"></p> <!-- ACRESCENTAR, NO JS, O AUMENTO DOS IDs-->
+                        </div>
+                    </div>
+
+                    <div class="item2"> 
+                        <div class="lastLocation">   
+                            <p>Last known location:</p>
+                        </div>
+                        <div class="local">
+                            <a class="ancorChars" id="ancorLocal2" target="_blank" href="">
+                                <p></p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item3">
+                        <div class="firstSeenIn">
+                            <p>First seen in:</p>
+                        </div>
+                        <div class="episode">
+                            <a class="ancorChars" id="ancorEpisode2" target="_blank" href="">
+                                <p></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ARTICLE3 CONCLUÍDO -->
+            <article class="articleContainer">
+                <div class="imageChars">
+                    <figure>
+                        <img id="img3" src="" alt="">
+                    </figure>
+                </div>
+
+                <div class="generalInfos chars3">
+                    <div class="item1">
+                        <div class="name">
+                            <a class="ancorChars" id="ancorName3" target="_blank" href="../CHAR/char.html">
+                                <h2></h2>
+                            </a>
+                        </div>
+                        <div class="condition">
+                            <span id="icon3" class="iconCondition icon"></span>
+                            <p id="p3"></p> <!-- ACRESCENTAR, NO JS, O AUMENTO DOS IDs-->
+                        </div>
+                    </div>
+
+                    <div class="item2"> 
+                        <div class="lastLocation">   
+                            <p>Last known location:</p>
+                        </div>
+                        <div class="local">
+                            <a class="ancorChars" id="ancorLocal3" target="_blank" href="">
+                                <p></p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item3">
+                        <div class="firstSeenIn">
+                            <p>First seen in:</p>
+                        </div>
+                        <div class="episode">
+                            <a class="ancorChars" id="ancorEpisode3" target="_blank" href="">
+                                <p></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ARTICLE4 CONCLUÍDO -->
+            <article class="articleContainer">
+                <div class="imageChars">
+                    <figure>
+                        <img id="img4" src="" alt="">
+                    </figure>
+                </div>
+
+                <div class="generalInfos chars4">
+                    <div class="item1">
+                        <div class="name">
+                            <a class="ancorChars" id="ancorName4" target="_blank" href="../CHAR/char.html">
+                                <h2></h2>
+                            </a>
+                        </div>
+                        <div class="condition">
+                            <span id="icon4" class="iconCondition icon"></span>
+                            <p id="p4"></p> <!-- ACRESCENTAR, NO JS, O AUMENTO DOS IDs-->
+                        </div>
+                    </div>
+
+                    <div class="item2"> 
+                        <div class="lastLocation">   
+                            <p>Last known location:</p>
+                        </div>
+                        <div class="local">
+                            <a class="ancorChars" id="ancorLocal4" target="_blank" href="">
+                                <p></p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item3">
+                        <div class="firstSeenIn">
+                            <p>First seen in:</p>
+                        </div>
+                        <div class="episode">
+                            <a class="ancorChars" id="ancorEpisode4" target="_blank" href="">
+                                <p></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!-- ARTICLE5 CONCLUÍDO -->
+            <article class="articleContainer">
+                <div class="imageChars">
+                    <figure>
+                        <img id="img5" src="" alt="">
+                    </figure>
+                </div>
+
+                <div class="generalInfos chars5">
+                    <div class="item1">
+                        <div class="name">
+                            <a class="ancorChars" id="ancorName5" target="_blank" href="../CHAR/char.html">
+                                <h2></h2>
+                            </a>
+                        </div>
+                        <div class="condition">
+                            <span id="icon5" class="iconCondition icon"></span>
+                            <p id="p5"></p> <!-- ACRESCENTAR, NO JS, O AUMENTO DOS IDs-->
+                        </div>
+                    </div>
+
+                    <div class="item2"> 
+                        <div class="lastLocation">   
+                            <p>Last known location:</p>
+                        </div>
+                        <div class="local">
+                            <a class="ancorChars" id="ancorLocal5" target="_blank" href="">
+                                <p></p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item3">
+                        <div class="firstSeenIn">
+                            <p>First seen in:</p>
+                        </div>
+                        <div class="episode">
+                            <a class="ancorChars" id="ancorEpisode5" target="_blank" href="">
+                                <p></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <article class="articleContainer">
+                <div class="imageChars">
+                    <figure>
+                        <img id="img6" src="" alt="">
+                    </figure>
+                </div>
+
+                <div class="generalInfos chars6">
+                    <div class="item1">
+                        <div class="name">
+                            <a class="ancorChars" id="ancorName6" target="_blank" href="../CHAR/char.html">
+                                <h2></h2>
+                            </a>
+                        </div>
+                        <div class="condition">
+                            <span id="icon6" class="iconCondition icon"></span>
+                            <p id="p6"></p> <!-- ACRESCENTAR, NO JS, O AUMENTO DOS IDs-->
+                        </div>
+                    </div>
+
+                    <div class="item2"> 
+                        <div class="lastLocation">   
+                            <p>Last known location:</p>
+                        </div>
+                        <div class="local">
+                            <a class="ancorChars" id="ancorLocal6" target="_blank" href="">
+                                <p></p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="item3">
+                        <div class="firstSeenIn">
+                            <p>First seen in:</p>
+                        </div>
+                        <div class="episode">
+                            <a class="ancorChars" id="ancorEpisode6" target="_blank" href="">
+                                <p></p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer id="footer">
+            <ul id="ulFooter">
+                <li>
+                    <a class="ancorFooter" href="">
+                        characters: 826
+                    </a>
+                </li>
+                <li>
+                    <a class="ancorFooter" href="">
+                        locations: 126
+                    </a>
+                </li>
+                <li>
+                    <a class="ancorFooter" href="">
+                        episodes: 51
+                    </a>
+                </li>
+            </ul>
+    </footer>
+
+    <script src="requisicoes.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+#main {
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.articleContainer {
+    display: flex;
+    width: 38rem;
+    height: 15rem;
+    background-color: rgb(60, 62, 68);
+    margin-top: 6rem;
+    border-radius: 20px;
+}
+
+.imageChars figure img{
+    height: 15rem;
+    border-radius: 20px;
+}
+
+.generalInfos {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding:  0rem 1rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.ancorChars {
+    color: rgb(255, 255, 255);
+}
+
+.name {
+    font-size: 1.2em;
+}
+
+.condition {
+    display: flex;
+    align-items: center;
+}
+
+.condition p {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+
+.iconCondition {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+
+.iconDead {
+    background-color: red;
+}
+.iconAlive {
+    background-color: rgb(38, 255, 0);
+}
+.iconunknown {
+    background-color: rgb(158, 158, 158);
+}
+
+.lastLocation {
+    color: rgb(158, 158, 158);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.local {
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+
+.firstSeenIn {
+    color: rgb(158, 158, 158);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.episode {
+    font-size: 1.2em;
+}
