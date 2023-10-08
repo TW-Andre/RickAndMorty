@@ -1,1 +1,3 @@
 # RickAndMorty
+
+Random characters
